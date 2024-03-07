@@ -1,0 +1,79 @@
+body {
+  background-color: #e9f878;
+}
+body h2 {
+  color: rgba(85, 87, 85, 0.585);
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0  auto;
+}
+@media (min-width:768px)and(max-width: 1023px) {
+  .container {
+    max-width: 80%;
+    background-color: antiquewhite;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+    background-color: aqua;
+  }
+}
+header {
+  padding: 24px;
+}
+header .perfil {
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+#bio {
+  text-align: center;
+}
+#bio .bio-name {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+#bio .bio-sub {
+  font-size: 20px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+#bio .bio-desc {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.icon li {
+  list-style: none;
+  display: inline-flex;
+  padding: 8px;
+}
+.icon img {
+  width: 35px;
+}
+nav li {
+  list-style: none;
+  padding: 8px;
+  margin: 18px 0;
+  width: 80%;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(32, 241, 13, 0.312);
+  justify-content: space-between;
+  margin-left: 50px;
+  cursor: pointer;
+}
+nav a {
+  width: 100%;
+  padding: 6px;
+  justify-content: space-around;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
